@@ -1,0 +1,163 @@
+/* styles.css */
+
+/* Setting the background gradient for the entire page */
+body {
+  background: linear-gradient(to right, deeppink, deepskyblue); /* Linear gradient background */
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+  font-family: Arial, sans-serif; /* Change font if desired */
+}
+
+/* Styles for dropdown */
+.dropdown {
+  position: relative;
+  display: inline-block;
+  height: 80px;
+  width: 100%;
+  border: 3px solid #000;
+  background: deepskyblue;
+}
+
+.dropbtn {
+  font-size: 4em; /* Adjusting the font size of the button to 3em */
+  
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: aqua; /* Set background color to aqua */
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  transition: display 0.8s ease; /* Changing transition duration to 0.8s */
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  border: 2px solid transparent; /* Initially, border is transparent */
+  transition: border 0.5s ease; /* Adding border transition */
+}
+
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+  border-color: #000; /* Changing border color on hover */
+}
+
+.show {
+  display: block;
+}
+.dropdown ul .about{
+      position: absolute;
+      display: inline;
+      right: 500px;
+      top: 10px;
+      border: 2px solid #fff;
+      font-size: 1.8em;
+      background: #000;
+      padding: 10px 20px;
+}
+.dropdown ul li a{
+      text-decoration: none;
+      color: #fff;
+}
+.dropdown ul li:hover{
+      background: green;
+}
+.dropdown ul .contack{
+         position: absolute;
+         display: inline;
+         right: 250px;
+         top: 10px;
+         border: 2px solid #fff;
+         font-size: 1.8em;
+         background: #000;
+         padding: 10px 20px;
+         }
+       .dropdown ul .cal{
+           position: absolute;
+           display: inline;
+           right: 30px;
+           top: 10px;
+           border: 2px solid #fff;
+           font-size: 1.8em;
+           background: #000;
+           padding: 10px 20px;
+         }
+.content{
+      position: relative;
+      left: 280px;
+      
+}
+
+.content .cir{
+  position: absolute;
+      left: -50px;
+      top: 0;
+}
+.me{
+      width: 420px;
+      height: 500px;
+}
+.content .name{
+      color: #fff;
+      border: 2px solid red;
+      margin-top: 50px;
+      margin-left: 60px;
+      margin-right: 615px;
+      font-size: 3em;
+      background: skyblue;
+}
+.content .as{
+      color: #fff;
+      margin-left: -250px;
+      margin-right: 300px;
+     -webkit-text-stroke: 0.2px #000;
+}
+
+
+/* ... (existing CSS content) ... */
+
+.finishing-section {
+  text-align: center;
+  margin-top: 50px;
+  padding-bottom: 50px;
+  color: #fff;
+}
+
+.finishing-section h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.finishing-section p {
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+.social-media-links {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+.social-media-links li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.social-media-links li a {
+  text-decoration: none;
+  color: #fff;
+  border: 1px solid #fff;
+  padding: 5px 10px;
+  transition: all 0.3s ease;
+}
+
+.social-media-links li a:hover {
+  background-color: #fff;
+  color: #000;
+}
